@@ -1,0 +1,49 @@
+/*.container
+{
+   
+    border: 3px solid black;
+    
+    flex-direction: column;
+
+
+    display:flex;
+   height:100px;
+   flex-wrap: wrap;
+
+
+  
+   
+   
+}
+.box
+{
+    padding:10px;
+    border:3px solid red;
+    margin:5px;
+    width:20px;
+    
+}
+.box:nth-of-type(odd)
+{
+background-color: blueviolet;
+text-decoration: solid;
+}
+.box:nth-child(2)
+{
+    order:5;
+}
+.box:nth-child(2)
+{
+    flex-grow: 2px;
+}
+.box:nth-child(1)
+{
+    align-self: stretch;
+}*/
+#amma
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
